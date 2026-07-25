@@ -44,6 +44,12 @@ The current beta is signed with an Apple Development certificate but is not yet 
 
 ![Luma Bar System](assets/luma-bar-system-pet.png)
 
+### Cursor context at the limit
+
+When Cursor or Codex approaches the context-window ceiling, the notch expands into a live usage gauge and the desktop pet warns you before the session collapses.
+
+![Luma Bar Context Limit](assets/luma-bar-context-limit.png)
+
 ## Privacy
 
 Luma Bar is local-first. Model-provider API keys stay in macOS Keychain. Recent local-operation context expires automatically, and remote model requests are only sent when you invoke a feature that needs the selected provider.
