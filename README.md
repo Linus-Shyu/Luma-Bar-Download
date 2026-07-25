@@ -4,7 +4,7 @@
 
 [![Download](https://img.shields.io/badge/Download-Latest%20Release-2563EB?logo=github)](https://github.com/Linus-Shyu/Luma-Bar-Download/releases/latest)
 [![macOS 14+](https://img.shields.io/badge/macOS-14%2B-111827?logo=apple)](https://www.apple.com/macos/)
-[![Apple Silicon](https://img.shields.io/badge/Apple%20Silicon-arm64-8B5CF6?logo=apple)](https://support.apple.com/en-us/116943)
+[![Universal](https://img.shields.io/badge/Binary-Universal%20(arm64%20%2B%20x86__64)-8B5CF6?logo=apple)](https://support.apple.com/en-us/116943)
 
 Luma Bar is a native macOS Dynamic Island that combines music and synchronized lyrics, a context-aware local AI agent, system monitoring, task completion notifications, voice input, and desktop pets.
 
@@ -16,9 +16,9 @@ Luma Bar is a native macOS Dynamic Island that combines music and synchronized l
 2. 打开 DMG。
 3. 将 **Luma Bar** 拖入 **Applications** 文件夹。
 4. 首次启动时，在“应用程序”中右键 Luma Bar 并选择“打开”。
-5. 根据需要授予辅助功能、麦克风、语音识别、自动化或通知权限。
+5. 根据需要授予辅助功能、麦克风、语音识别、自动化或通讯录等权限。
 
-当前 Beta 版本适用于 Apple Silicon Mac，要求 macOS 14 或更高版本。
+当前 Beta 为 **Universal** 二进制（Apple Silicon + Intel），要求 macOS 14 或更高版本。文件名保留 `arm64` 是为了兼容旧下载链接。
 
 ## Installation
 
@@ -28,7 +28,7 @@ Luma Bar is a native macOS Dynamic Island that combines music and synchronized l
 4. On first launch, right-click Luma Bar in Applications and choose **Open**.
 5. Grant only the macOS permissions required by the features you use.
 
-This beta build supports Apple Silicon Macs running macOS 14 or later.
+This beta ships a **universal** binary for Apple Silicon and Intel Macs on macOS 14 or later. The `arm64` filename is kept for link compatibility.
 
 ## Why the first-launch right click?
 
@@ -52,7 +52,7 @@ When Cursor or Codex approaches the context-window ceiling, the notch expands in
 
 ## Privacy
 
-Luma Bar is local-first. Model-provider API keys stay in macOS Keychain. Recent local-operation context expires automatically, and remote model requests are only sent when you invoke a feature that needs the selected provider.
+Luma Bar is local-first. OpenAI API keys stay in macOS Keychain. Recent local-operation context expires automatically, and remote model requests are only sent when you invoke a feature that needs them.
 
 ## Source availability
 
